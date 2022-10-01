@@ -35,6 +35,14 @@ export default {
       title: "LinkToBuild",
       type: "url",
     },
+    {
+      name: "projectStatus",
+      title: "Project Status",
+      type: "string",
+      options: {
+        list: ['New Project','Open Project', 'Work in Progress', 'Project Completed']
+      }
+    }
 
 
   ],
